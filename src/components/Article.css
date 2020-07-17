@@ -8,7 +8,7 @@ body {
     height: 100%;
 }
 
-.article-slide {
+.articleSlide {
     position: relative;
     height: 100%;
     background-color: #edf2f8;
@@ -26,7 +26,7 @@ h3 {
     letter-spacing: 0.6px;
 }
 
-.article-image {
+.articleImage {
     float: left;
     margin-right: 38px;
     border-radius: 10px 0 0 10px;
@@ -36,7 +36,7 @@ h3 {
     object-position: 5% 50%;
 }
 
-.article-content {
+.articleContent {
     width: 583px;
     height: 226px;
     padding: 5px 26px;
@@ -60,7 +60,7 @@ h3 {
     line-height: 0.5;
 }
 
-.avatar-image {
+.avatarImage {
     border-radius: 100%;
     float: left;
     margin-right: 10px;
@@ -70,7 +70,7 @@ h3 {
     color: #adb1ba;
 }
 
-.share-icon {
+.shareIcon {
     float: right;
     fill: #6e8098;
     background-color: #e6edf7;
@@ -80,7 +80,7 @@ h3 {
     z-index: 1;
 }
 
-.share-icon:hover,
+.shareIcon:hover,
 .clicked {
     fill: white;
     background-color: #6c8099;
@@ -113,7 +113,7 @@ h3 {
     border-color: #49556b transparent transparent transparent;
 }
 
-.share-text {
+.shareText {
     display: inline-block;
     letter-spacing: 3px;
     font-size: 0.7rem;
@@ -128,7 +128,7 @@ h3 {
 }
 
 @media (max-width: 1200px) {
-    .article-slide {
+    .articleSlide {
         margin: 0;
         height: auto;
     }
@@ -138,7 +138,7 @@ h3 {
         padding: 20% 10%;
     }
 
-    .article-image {
+    .articleImage {
         display: inline-block;
         position: relative;
         float: none;
@@ -148,7 +148,7 @@ h3 {
         margin: 0;
     }
 
-    .article-content {
+    .articleContent {
         position: relative;
         width: auto;
         height: auto;
@@ -172,7 +172,7 @@ h3 {
         position: static;
     }
 
-    .share-icon {
+    .shareIcon {
         margin-top: 6px;
     }
 }

@@ -25,7 +25,7 @@ class Article extends React.Component {
         if (this.state.share == true)
             return (
                 <div className='share'>
-                    <span className='share-text'>SHARE</span>
+                    <span className='shareText'>SHARE</span>
                     <img className='social' src={facebook} />
                     <img className='social' src={pinterest} />
                     <img className='social' src={twitter} />
@@ -37,12 +37,12 @@ class Article extends React.Component {
     }
     render() {
         return (
-            <div className='container'>
-                <div className='row'>
+            <div className='articleSlide'>
+                <div className='article'>
                     <div className='imgcon'>
-                        <img className='article-image' src={drawer} />
+                        <img className='articleImage' src={drawer} />
                     </div>
-                    <div className='article-content'>
+                    <div className='articleContent'>
                         <h3>
                             Shift the overall look and feel by adding these
                             wonderful touches to furniture in your home
@@ -57,13 +57,13 @@ class Article extends React.Component {
                         <img
                             src={avatar}
                             alt='avatar-image'
-                            className='avatar-image'
+                            className='avatarImage'
                             width='30'
                             height='30'
                         />
 
                         <img
-                            className='share-icon'
+                            className='shareIcon'
                             src={share}
                             onClick={this.toggleShare}
                         />
@@ -75,7 +75,7 @@ class Article extends React.Component {
                         </div>
                     </div>
                     <div className='share'>
-                        <span className='share-text'>SHARE</span>
+                        <span className='shareText'>SHARE</span>
                         <img className='social' src={facebook} />
                         <img className='social' src={pinterest} />
                         <img className='social' src={twitter} />
