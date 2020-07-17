@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Article Preview Component Exercise from FrontEnd Mentors done in React, HTML, and CSS
+
+## Preview Photo
+![image](https://user-images.githubusercontent.com/22650058/87826089-20f17500-c82d-11ea-952c-2f3473265cce.png)
 
 ## Available Scripts
 
